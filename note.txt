@@ -13,3 +13,5 @@ https://www.slideshare.net/AIFrontiers/presentations
 Glossary
 https://deeplearning4j.org/glossary
 
+NLP
+https://insights.untapt.com/deep-learning-for-natural-language-processing-tutorials-with-jupyter-notebooks-ad67f336ce3f
