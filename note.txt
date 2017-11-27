@@ -15,3 +15,6 @@ https://deeplearning4j.org/glossary
 
 NLP
 https://insights.untapt.com/deep-learning-for-natural-language-processing-tutorials-with-jupyter-notebooks-ad67f336ce3f
+
+Understanding SSD MultiBox — Real-Time Object Detection In Deep Learning
+https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bm1QWJyqkT9OpftbslbFxCw%3D%3D
