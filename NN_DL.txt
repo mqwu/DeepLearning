@@ -2,9 +2,53 @@
 # NN and DL
 #############
 
+## Intro
 -Standard NN: predictive modelling
 -CNN: image classification
 -RNN: sequence data, such as Audio and language translation
 -Custom/Hybrid NN: auto drive car(in: image, Radar info out:positio of other cars)
 
--unstructure data: image, audio, text...
+-Unstructure data: image, audio, text...
+
+-Scale drive the DL, more data improve performance, but not in traditional ML 
+
+
+## Basic of NN programming
+# Logistic regression as a very small NN
+X.shape = (n_x, m)
+y.shape = (1,m)
+
+=logistic regression (y = prob of success)
+--y_hat = sigma(W^TX + b)  
+--sigma fun = 1/(1+e^-x)
+
+=Cost function 
+-Loss function (this is for single training sample)
+--L(y,y_hat) = 0.5*(y_hat - y)^2   (non-convex, usually do not use it for logistic reg)
+--L(y,y_hat) = -[ylogy_hat +(1-y)log(1-y_hat)] (convex function)
+-Cost function (for all training data)
+--J(w,b)=1/m sum[L(y_i,y_hat_i)] i=1,...,m 
+--Minize J to find (w,b)
+
+=Gradient decent
+-w = w - alpha x dJ/dw   (alpha: learning rate)
+-b = b - alpha x dJ/db   
+
+=Computation graph
+-forward propogation to calculate function value
+-backward propogation to calculate derivative (dLoss/dx using chain rule)
+
+
+
+
+
+
+
+
+
+
+
+
+## One hidden layer NN
+
+## Deep NN
