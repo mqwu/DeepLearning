@@ -6,3 +6,5 @@
 -CNN: image classification
 -RNN: sequence data, such as Audio and language translation
 -Custom/Hybrid NN: auto drive car(in: image, Radar info out:positio of other cars)
+
+-unstructure data: image, audio, text...
