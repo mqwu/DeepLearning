@@ -38,7 +38,17 @@ y.shape = (1,m)
 -forward propogation to calculate function value
 -backward propogation to calculate derivative (dLoss/dx using chain rule)
 
+=Vectorization
+- Z = np.dot(w.T, x) + b    Z.shape=(1,m)
+- A = sigma(Z)
+- dZ = A - Y
+- dw = 1/m X dZ.T
+- db = 1/m np.sum(dZ)
+- w = w - alpha dw
+- b = b - alpha db
 
+- u = np.exp(v)  =np.abs(v)  =np.log(v) =np.maximize(v)
+- dw = np.zeros(n_x, 1)  dw += x^(i)dz^(i)  dw /= m  #sample i = 1, ..., m
 
 
 
