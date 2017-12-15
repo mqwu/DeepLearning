@@ -52,13 +52,20 @@ y.shape = (1,m)
 
 
 
+## Shallow NN (One hidden layer NN)
+= Input X
+
+= Layer 1
+- Z^[1] = W^[1]X + b^[1]
+- a^[1] = sigma(Z^[1])
+
+= Layer 2
+- Z^[2] = W^[2]a^[1] + b^[2]
+- a^[2] = sigma(Z^[2])
+
+= Out 
+- L(a^[2], y)
 
 
-
-
-
-
-
-## One hidden layer NN
 
 ## Deep NN
