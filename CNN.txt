@@ -1,3 +1,29 @@
 #############
 # CNN
 #############
+
+## computer vision problem
+- image classification
+- object detection
+- neural style transfer
+
+## convolution neural network (CNN)
+- image data * filter 
+- filter scan the image data and then calculate weighted avg
+- vertical edge filter 
+1 0 -1    1 0 -1 Sobel filter
+1 0 -1    2 0 -2
+1 0 -1    1 0 -1
+
+- python: conv-forward
+- tensorflow: tf.nn.conv2d
+- keras: conv2D
+
+- padding
+--Problem: shrinking output; throw away a lot of info from edge.
+--nxn * fxf = (n-f+1)x(n-f+1)  (no padding: "valid", f is usually odd)
+            = (n+2p-f+1)x(n+2p-f+1) (with padding pxp: "same" means output size = input size)
+            
+- stride
+-- filter moving steps: s
+-- nxn * fxf = [(n+2p-f)/s + 1] x [(n+2p-f)/s + 1]  
