@@ -106,6 +106,8 @@ a^[0] = X
 - b[i], db[i]: (n[i], m)                     m: # of samples
 - Z[i], A[i], dZ[i], dA[i]: (n[i], m)     i=0, A[0]=X    
 
+
+## Deep NN
 = Why deep
 - early layer represent simple functions (low level features)
   later layer represent complex functions building from early layer (simple functions)
@@ -136,6 +138,3 @@ a^[0] = X
 - regularization par
 
 - Empirical process to tune these paras
-
-
-## Deep NN
