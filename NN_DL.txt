@@ -9,7 +9,6 @@
 -Custom/Hybrid NN: auto drive car(in: image, Radar info out:positio of other cars)
 
 -Unstructure data: image, audio, text...
-
 -Scale drive the DL, more data improve performance, but not in traditional ML 
 
 
@@ -49,7 +48,6 @@ y.shape = (1,m)
 
 - u = np.exp(v)  =np.abs(v)  =np.log(v) =np.maximize(v)
 - dw = np.zeros(n_x, 1)  dw += x^(i)dz^(i)  dw /= m  #sample i = 1, ..., m
-
 
 
 ## Shallow NN (One hidden layer NN or 2 layer NN)
