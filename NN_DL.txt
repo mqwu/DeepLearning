@@ -108,7 +108,20 @@ a^[0] = X
 
 = Why deep
 - early layer represent simple functions (low level features)
-- later layer represent complex functions building from early layer (simple functions)
+  later layer represent complex functions building from early layer (simple functions)
+- same complexity shallow layer require exponentially more hidden units, that's why DL is prefered
 
+= Building blocks
+- forward propagation
+--In: A[i-1] Out: A[i]
+-- Z[i] = W[i]A[i-1] + b[i]   # cash Z[i] W[i] b[i] for backward propagation
+-- A[i] = g_i(Z[i])
+
+- backward propagation
+--In: dA[i]  cash (Z[i], W[i], b[i])    Out: dA[i-1], dW[i], db[i]
+-- dZ[i] = dA[i]*g[i]'(Z[i])
+-- dW[i] = 1/m*dZ[i]*A[i-1].T
+-- db[i] = 1/m*np.sum(dZ[i], axis=1, keepdim=True)
+-- dA[i-1] = W[i].T*dZ[i]
 
 ## Deep NN
