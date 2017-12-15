@@ -101,6 +101,11 @@ a^[0] = X
 -- W should be initialize with a random small number (close to 0)
 ----W^[1] = np.random.randn((2,2)) * 0.01  (if x 1000, z will be large, derivative very small for activation ftn)
 
+= Parameters Dim
+- W[i], dW[i]: (n[i], n[i-1])             n[i]: # of node in layer i
+- b[i], db[i]: (n[i], m)                     m: # of samples
+- Z[i], A[i], dZ[i], dA[i]: (n[i], m)     i=0, A[0]=X    
+
 
 
 ## Deep NN
