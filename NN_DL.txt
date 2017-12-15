@@ -52,20 +52,49 @@ y.shape = (1,m)
 
 
 
-## Shallow NN (One hidden layer NN)
-= Input X
+## Shallow NN (One hidden layer NN or 2 layer NN)
+= Input X 
+a^[0] = X
 
-= Layer 1
+= Hidden Layer 1
 - Z^[1] = W^[1]X + b^[1]
 - a^[1] = sigma(Z^[1])
 
-= Layer 2
+= Output Layer 
 - Z^[2] = W^[2]a^[1] + b^[2]
 - a^[2] = sigma(Z^[2])
 
-= Out 
+- y_hat = a^[2]
 - L(a^[2], y)
 
+= Each node has Two step computation (linear + non-linear)
+- Z = W^TX + b    W.shape(# of node, # of input)
+- y = sigma(Z)
+
+-Z^[1] = W^[1]X + b^[1] = W^[1]A^[0] + b^[1]
+-A^[1] = sigma(Z^[1])
+-Z^[2] = W^[2]A^[1] + b^[2]
+-A^[2] = sigma(Z^[2])
+
+= Activation function (Non-linear)
+- sigmoid = 1/(1+e^-z)    (0, 1)
+---- use only if it is for binary classification
+- tanh = shift sigmoid = (e^z - e^-z)/(e^z + e^-z)  (-1, 1)
+---- when z is very large or small, the gradient(derivative) become very small
+
+-ReLu = max(0, z)
+---- z <= 0, derivative = 0
+---- z > 0, derivative = 1
+---- since most of node z may > 0, the learning is fast
+
+- How to choose Activation function
+--Default is ReLU
+--But you may experiment different Activation function and use CV to pick the best one
+--Hidden layer use ReLu, output layer use linear activation for continuous output
+--All layer use ReLu for >0 output
+
+- Why you need activation function  
+--b/c composition of linear will always gives you linear function
 
 
 ## Deep NN
