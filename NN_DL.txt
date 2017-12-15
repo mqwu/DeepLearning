@@ -124,4 +124,17 @@ a^[0] = X
 -- db[i] = 1/m*np.sum(dZ[i], axis=1, keepdim=True)
 -- dA[i-1] = W[i].T*dZ[i]
 
+= Hyper parameters
+- learning rate alpha
+- # of iterations
+- # hidden layers
+- # of hidden units
+- choice of activation functions
+
+- momentum
+- minibatch size
+- regularization par
+
+
+
 ## Deep NN
