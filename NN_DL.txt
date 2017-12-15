@@ -135,6 +135,7 @@ a^[0] = X
 - minibatch size
 - regularization par
 
+- Empirical process to tune these paras
 
 
 ## Deep NN
