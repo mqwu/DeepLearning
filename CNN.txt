@@ -26,4 +26,4 @@
             
 - stride
 -- filter moving steps: s
--- nxn * fxf = [(n+2p-f)/s + 1] x [(n+2p-f)/s + 1]  
+-- nxn * fxf = floor[(n+2p-f)/s + 1] x floor[(n+2p-f)/s + 1]  
