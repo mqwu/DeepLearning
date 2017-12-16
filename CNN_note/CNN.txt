@@ -2,6 +2,8 @@
 # CNN
 #############
 
+https://zh.wikipedia.org/wiki/%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C
+
 ## computer vision problem
 - image classification
 - object detection
