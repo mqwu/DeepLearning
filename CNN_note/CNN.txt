@@ -70,6 +70,10 @@ https://zh.wikipedia.org/wiki/%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%B
  - parameter sharing: through parameter sharing, the # of pars reduce significantly
  - Sparcity of connections (not fully connected)
  
+ = softmax function (normalized exponential function)
+ https://en.wikipedia.org/wiki/Softmax_function
+ In mathematics, the softmax function, or normalized exponential function, is a generalization of the logistic function that "squashes" a K-dimensional vector {\displaystyle \mathbf {z} } \mathbf {z}  of arbitrary real values to a K-dimensional vector {\displaystyle \sigma (\mathbf {z} )} \sigma (\mathbf {z} ) of real values in the range [0, 1] that add up to 1.
+ 
  
 
  
