@@ -45,3 +45,29 @@
  = Deep CNN
  - see CNN_ex
  
+ - as layer goes deeper
+ -- size of filter decrease 
+ -- # of filter increase
+ 
+ - type of layer
+ --Convolution (CONV)
+ --Pooling (POOL): no parameters, does not impact gradient decent
+ --Fully connected (FC)
+ 
+ = Pooling layer
+ - max pooling (if a feature is detected in a region, keep this region # high, o.w. low)
+ - average pooling
+ - hyperparas: filter size, stride, Max or avg pooling (no padding usually)
+ 
+ = CNN pars
+ - Pooling layer no par
+ - CONV has small # of par
+ - FC layer has large # of par
+ 
+ = Why CONV
+ - parameter sharing: through parameter sharing, the # of pars reduce significantly
+ - Sparcity of connections (not fully connected)
+ 
+ 
+
+ 
