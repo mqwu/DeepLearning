@@ -81,7 +81,7 @@ https://zh.wikipedia.org/wiki/%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%B
 - VGG-16
 
 - ResNets
---allow activation from one layer feed to deep layer
+--allow activation from one layer feed to deeper layer (jump)
 --the benefit is allow you to train much deeper NN
 
 - 1x1 CONV
