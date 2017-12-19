@@ -30,7 +30,7 @@ https://zh.wikipedia.org/wiki/%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%B
 -- filter moving steps: s
 -- nxn * fxf = floor[(n+2p-f)/s + 1] x floor[(n+2p-f)/s + 1]  
 
-- Converlution over vol
+- Convolution over vol
 --3 chanel image need 3 filters, chanels dim need to match
   e.g 6x6x[3] image 3x3x[3] filter = each output is 27(3x3x3) number weighted avg
   nxnxn_c  *  fxfxn_c = (n-f+1) x (n-f+1) x n_c' (# of filters, for vert edge, horz edge)
