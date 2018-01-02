@@ -18,3 +18,6 @@ https://insights.untapt.com/deep-learning-for-natural-language-processing-tutori
 
 Understanding SSD MultiBox — Real-Time Object Detection In Deep Learning
 https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bm1QWJyqkT9OpftbslbFxCw%3D%3D
+
+LSTM
+http://colah.github.io/posts/2015-08-Understanding-LSTMs/
