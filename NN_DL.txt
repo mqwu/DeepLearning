@@ -1,3 +1,9 @@
+#################################
+# Restrictive Boltzmann Machine
+#################################
+https://www.youtube.com/watch?v=FsAvo0E5Pmw
+
+
 #############
 # NN and DL
 #############
