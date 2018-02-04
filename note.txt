@@ -29,4 +29,6 @@ https://www.youtube.com/playlist?list=PLkFD6_40KJIznC9CDbVTjAF2oyt8_VAe3
 https://classroom.udacity.com/courses/ud600
 
 
+Gradient clipping
+Gradient clipping is most common in recurrent neural networks. When gradients are being propagated back in time, they can vanish because they they are continuously multiplied by numbers less than one. This is called the vanishing gradient problem. This is solved by LSTMs and GRUs, and if you’re using a deep feedforward network, this is solved by residual connections. On the other hand, you can have exploding gradients too. This is when they get exponentially large from being multiplied by numbers larger than 1. Gradient clipping will clip the gradients between two numbers to prevent them from getting too large.
 
