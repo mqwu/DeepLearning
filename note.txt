@@ -17,6 +17,7 @@ NLP
 https://insights.untapt.com/deep-learning-for-natural-language-processing-tutorials-with-jupyter-notebooks-ad67f336ce3f
 best practice for NLP
 http://ruder.io/deep-learning-nlp-best-practices/index.html#wordembeddings
+https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BXu3uNoiERs%2Bceqiehwg3HQ%3D%3D
 
 
 Understanding SSD MultiBox — Real-Time Object Detection In Deep Learning
