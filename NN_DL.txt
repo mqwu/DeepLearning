@@ -16,6 +16,7 @@ https://www.youtube.com/watch?v=FsAvo0E5Pmw
 
 -Unstructure data: image, audio, text...
 -Scale drive the DL, more data improve performance, but not in traditional ML 
+-Activation ftn from sigmoid to ReLu make gradient decent much faster
 
 
 ## Basic of NN programming
