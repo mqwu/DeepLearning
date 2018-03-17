@@ -25,8 +25,9 @@ X.shape = (n_x, m)
 y.shape = (1,m)
 
 =logistic regression (y = prob of success)
---y_hat = sigma(W^TX + b)  
---sigma fun = 1/(1+e^-x)
+--y_hat = sigmoid(W^TX + b)  
+--sigmoid f(x) = 1/(1+e^-x)  (0,1)
+--extimate W and b through optimize cost function
 
 =Cost function 
 -Loss function (this is for single training sample)
