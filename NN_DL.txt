@@ -38,7 +38,7 @@ y.shape = (1,m)
 --Minize J to find (w,b)
 
 =Gradient decent
--w = w - alpha x dJ/dw   (alpha: learning rate)
+-w = w - alpha x dJ/dw   (alpha: learning rate, step size)
 -b = b - alpha x dJ/db   
 
 =Computation graph
