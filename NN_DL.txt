@@ -85,7 +85,7 @@ a^[0] = X
 = Activation function (Non-linear)
 - sigmoid = 1/(1+e^-z)    (0, 1)
 ---- use only if it is for binary classification
-- tanh = shift sigmoid = (e^z - e^-z)/(e^z + e^-z)  (-1, 1)
+- tanh = shift sigmoid = (e^z - e^-z)/(e^z + e^-z)  (-1, 1)  ==> mean ~ 0 center the mean
 ---- when z is very large or small, the gradient(derivative) become very small
 
 -ReLu = max(0, z)
