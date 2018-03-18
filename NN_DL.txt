@@ -105,7 +105,7 @@ a^[0] = X
 = Randomly initialize Weight
 --If not you will end up with exact same function for each hiddent unit
 -- W should be initialize with a random small number (close to 0)
-----W^[1] = np.random.randn((2,2)) * 0.01  (if x 1000, z will be large, derivative very small for activation ftn)
+----W^[1] = np.random.randn((2,2)) * 0.01  (if x 1000, z will be large, derivative very small for activation ftn, inefficient)
 
 = Parameters Dim
 - W[i], dW[i]: (n[i], n[i-1])             n[i]: # of node in layer i
