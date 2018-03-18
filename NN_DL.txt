@@ -33,8 +33,8 @@ y.shape = (1,m)
 -Loss function (this is for single training sample)
 --L(y,y_hat) = 0.5*(y_hat - y)^2   (non-convex, usually do not use it for logistic reg)
 --L(y,y_hat) = -[ylogy_hat +(1-y)log(1-y_hat)] (convex function)
--Cost function (for all training data)
---J(w,b)=1/m sum[L(y_i,y_hat_i)] i=1,...,m 
+-Cost function (for all training data) = - log likelihood; maximize log likelihood = min cost 
+--J(w,b)= -1/m sum[L(y_i,y_hat_i)] i=1,...,m 
 --Minize J to find (w,b)
 
 =Gradient decent
