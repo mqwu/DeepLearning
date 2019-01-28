@@ -41,3 +41,6 @@ Embeddings
 represent discrete variables as continuous vectors
 https://towardsdatascience.com/neural-network-embeddings-explained-4d028e6f0526
 https://developers.google.com/machine-learning/crash-course/embeddings/video-lecture
+
+Embedding visualization
+https://projector.tensorflow.org/
